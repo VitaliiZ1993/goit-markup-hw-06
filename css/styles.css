@@ -47,3 +47,34 @@ body{
 .title-address:focus{
     color: #404bbf;
 }
+
+.main-first-section{
+    background-color: #2e2f42;
+}
+
+.main-first-section-desktop{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.main-first-section-botton{
+    background-color: #4D5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.main-first-section-botton:hover{
+    background-color: #404bbf;
+}
+
+.main-first-section-botton:focus{
+    background-color: #404bbf;
+}
