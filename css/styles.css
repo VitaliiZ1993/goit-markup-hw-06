@@ -22,7 +22,7 @@ img{
     border-bottom: 1px solid #e7e9fc;
 }
 
-.not-visually-hidden {
+.visually-hidden {
     visibility: hidden;
   }
 
