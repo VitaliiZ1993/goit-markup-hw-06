@@ -3,6 +3,9 @@ body{
     color: #434455;
     background-color: #FFFFFF;
 }
+img{
+    display: block;
+}
 
 .title{
     font-family: "Raleway", sans-serif;
@@ -12,6 +15,14 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+.title-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.title-header-div{
+    display: flex;
 }
 
 .title-logo{
