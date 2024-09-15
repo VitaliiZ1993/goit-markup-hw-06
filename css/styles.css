@@ -18,12 +18,13 @@ img{
     margin-right: 76px;
 }
 
-.main-second-h{
-    visibility: hidden;
-}
-
 .title-header{
     border-bottom: 1px solid #e7e9fc;
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
 }
 
 .title-header-div{
