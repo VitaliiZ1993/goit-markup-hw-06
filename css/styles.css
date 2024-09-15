@@ -117,12 +117,26 @@ img{
     background-color: #404bbf;
 }
 
+.main-second-section{
+    padding: 120px 0;
+}
+
+.main-second-section-list{
+    display: flex;
+    gap: 24px;
+}
+
+.main-second-section-bed{
+    width: calc((100% - 72px) / 4);
+}
+
 .main-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .main-paragraph{
