@@ -22,13 +22,13 @@ img{
     border-bottom: 1px solid #e7e9fc;
 }
 
-.not-visible {
+.not-visually-hidden {
     visibility: hidden;
   }
 
 .title-header-div{
     width: 1158px;
-    margin-left: 0 auto;
+    margin: 0 auto;
     padding: 0 15px;
     display: flex;
 }
