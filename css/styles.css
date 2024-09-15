@@ -7,6 +7,19 @@ img{
     display: block;
 }
 
+ul, ol{
+    margin: 0;
+    padding-left: 0;
+}
+
+.conteiner{
+    min-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .title{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -36,9 +49,6 @@ img{
 }
 
 .title-header-div{
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
     display: flex;
 }
 
@@ -204,7 +214,7 @@ img{
 
 .main-list{
     background-color: #FFFFFF;
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px) / 3);
     border-radius: 0px 0px 4px 4px;
 }
 
