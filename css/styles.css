@@ -50,6 +50,8 @@ ul, ol{
 
 .first-header{
     display: flex;
+    width: 1158px;
+    padding: 0 15px;
 }
 
 .title-header-nav{
