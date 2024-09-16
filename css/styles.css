@@ -272,3 +272,8 @@ ul, ol{
 .footer-two{
     padding-top: 16px;
 }
+
+.title-footer{
+    display: inline-block;
+    margin-bottom: 16px;
+}
