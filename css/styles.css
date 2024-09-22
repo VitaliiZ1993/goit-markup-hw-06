@@ -336,7 +336,7 @@ ul, ol{
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-list-fourth:hover{
+.main-list-fourth-paragraf:hover{
     transform: translateY(0%);
 }
 
