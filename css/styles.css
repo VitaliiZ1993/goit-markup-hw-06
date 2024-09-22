@@ -100,10 +100,6 @@ ul, ol{
     border-radius: 2px;
 }
 
-.title-address-second{
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .title-header-menu{
    display: flex; 
    gap: 40px;
@@ -129,6 +125,7 @@ ul, ol{
     margin-left: auto;
     color: #434455;
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title-address:hover{
