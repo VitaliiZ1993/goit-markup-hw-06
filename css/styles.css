@@ -336,7 +336,7 @@ ul, ol{
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-list-fourth-paragraf:hover{
+.main-list-fourth:hover{
     transform: translateY(0%);
 }
 
@@ -399,4 +399,32 @@ ul, ol{
 .title-footer{
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.footer-first{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-first-logo{
+    margin-right: 120px; 
+}
+
+.footer-paragraph-second{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-list{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-bed{
+    width: 40px;
+    height: 40px;
 }
