@@ -341,6 +341,10 @@ ul, ol{
     overflow: hidden;
 }
 
+.main-list-fourth:hover .main-list-fourth-paragraf{
+    transform: translateY(0%);
+}
+
 .main-list-fourth-paragraf{
     position: absolute;
     top: 0; 
