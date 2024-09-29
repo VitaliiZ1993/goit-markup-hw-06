@@ -684,8 +684,8 @@ input:checked + label > span {
     border: none;
 }
 
-.modal-Link{
-    color: var(--link-color, #4d5ae5);
+.modal-link{
+    color: #4d5ae5;
     text-decoration: underline;
 }
 
