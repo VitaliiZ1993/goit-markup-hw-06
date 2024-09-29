@@ -424,6 +424,10 @@ ul, ol{
     margin-bottom: 16px;
 }
 
+.footer-second{
+    margin-right: 80px;
+}
+
 .footer-list{
     display: flex;
     gap: 16px;
@@ -470,7 +474,7 @@ ul, ol{
     display: flex;
 }
 
-.footer-label{
+.footer-form{
     gap: 24px;
 }
 
