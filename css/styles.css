@@ -681,3 +681,6 @@ ul, ol{
     fill: transparent;
 }
 
+input[type="checkbox"]:checked ~ span {
+    background-color: #404bbf;
+}
