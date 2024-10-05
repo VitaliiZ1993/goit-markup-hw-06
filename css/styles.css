@@ -28,10 +28,23 @@ ul, ol{
 }
 
 .container{
-    width: 1158px;
-    padding: 0 15px;
+    max-width: 320px;
+    padding: 0 16px;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) {
+    .burger-btn {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+      max-width: 1158px;
+      padding: 0 15px;
+    }
+  }
 
 .title{
     font-family: "Raleway", sans-serif;
@@ -721,3 +734,13 @@ input:checked + label > span {
     background: #4d5ae5;
     border-radius: 4px;
 }
+
+.hidden {
+    display: none;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #fff;
+  }
