@@ -5,6 +5,13 @@ body{
 }
 img{
     display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
 }
 
 h1,
@@ -44,7 +51,7 @@ ul, ol{
       max-width: 1158px;
       padding: 0 15px;
     }
-  }
+}
 
 .title{
     font-family: "Raleway", sans-serif;
