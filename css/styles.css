@@ -183,7 +183,7 @@ ul, ol{
     padding: 72px 0;
     padding-left: 52px;
     padding-right: 52px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/dark-bg-mob-@1x.jpg');
     max-width: 320px;
     background-repeat: no-repeat;
     background-position: center;
@@ -191,6 +191,46 @@ ul, ol{
     margin-left: auto;
     margin-right: auto;
     height: 432px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .main-first-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/dark-bg-mob-@2x.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .main-first-section {
+      max-width: 768px;
+      background-color: rgba(46, 47, 66, 0.7);
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/dark-bg-tab-@1x.jpg');
+      padding: 112px 0;
+    }
+}
+  
+@media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .main-first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/dark-bg-tab-@2x.jpg');
+    }
+}
+@media screen and (min-width: 1158px) {
+    .main-first-section {
+      max-width: 1440px;
+      padding: 188px 0;
+      background-color: rgba(46, 47, 66, 0.7);
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/people-office-@1x.jpg');
+    }
+}
+@media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .main-first-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/people-office-@2x.jpg');
+    }
 }
 
 .main-first-section-desktop{
@@ -450,6 +490,11 @@ ul, ol{
 .main-third-section-div{
     padding: 32px 0;
 }
+
+.main-photo {
+    background: url('path_to_image');
+    width: 100%;
+  }
 
 @media screen and (min-width: 768px) {
     .main-third-section-list{
