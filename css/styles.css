@@ -158,6 +158,7 @@ ul, ol{
         display: flex;
         font-size: 16px;
         gap: 40px;
+        flex-direction: row;
     }
 }
 
@@ -201,7 +202,6 @@ ul, ol{
     margin-right: auto;
     height: 432px;
 }
-
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -210,36 +210,36 @@ ul, ol{
   }
 }
 
+
 @media screen and (min-width: 768px) {
     .main-first-section {
-      max-width: 768px;
-      background-color: rgba(46, 47, 66, 0.7);
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/dark-bg-tab-@1x.jpg');
-      padding: 112px 0;
+        max-width: 768px;
+        background-color: rgba(46, 47, 66, 0.7);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/dark-bg-tab-@1x.jpg');
+        padding: 112px 0;
     }
-}
-  
-@media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      .main-first-section {
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .main-first-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/dark-bg-tab-@2x.jpg');
     }
 }
+}
 @media screen and (min-width: 1158px) {
-    .main-first-section {
+    .main-first-section { 
       max-width: 1440px;
       padding: 188px 0;
       background-color: rgba(46, 47, 66, 0.7);
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/people-office-@1x.jpg');
     }
-}
-@media (min-device-pixel-ratio: 2),
+    @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       .main-first-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/people-office-@2x.jpg');
     }
+}
 }
 
 .main-first-section-desktop{
@@ -297,7 +297,7 @@ ul, ol{
 
 @media screen and (min-width: 1158px){
     .main-first-section{
-        max-width: 1158px;
+        max-width: 1440px;
         height: 600px;
         padding: 188px 0;
     }
@@ -320,7 +320,6 @@ ul, ol{
 }
 
 .main-second-section-bed{
-    margin-bottom: 8px;
     text-align: center;
 }
 
@@ -345,7 +344,7 @@ ul, ol{
 }
 
 .main-title{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -388,6 +387,7 @@ ul, ol{
     .main-title{
         font-size: 20px;
         text-align: left;
+        font-weight: 500;
     }
 
     .main-second-section-ing{
@@ -395,6 +395,7 @@ ul, ol{
     } 
 
     .main-second-section-bed{
+        margin-bottom: 8px;
         width: calc((100% - 72px) / 4);
     }  
     
@@ -406,6 +407,9 @@ ul, ol{
 
     .main-second-section{
         padding: 120px 0;
+    }
+    .main-paragraph{
+    font-weight: 400;
     }
 }
 
@@ -445,6 +449,7 @@ ul, ol{
     display: flex;
     flex-direction: column;
     row-gap: 72px;
+    align-items: center;
 }
 
 .main-fourth-section-list{
@@ -819,7 +824,7 @@ input::placeholder{
         align-items: baseline;
         flex-wrap: wrap;
         column-gap: 24px;
-        margin-left: 108px;
+        padding-left: 108px;
     }
 
     .footer-first{
@@ -859,6 +864,12 @@ input::placeholder{
     .footer-first{
         display: flex;
         align-items: baseline;
+        padding: 0 15px;
+        gap: 0;
+    }
+
+    .footer-first-logo{
+        padding-right: 120px;
     }
 
     .footer-label-input{
@@ -873,6 +884,14 @@ input::placeholder{
 
     .footer-button{
         width: 165px;
+    }
+
+    .footer-second{
+        padding-right: 80px;
+    }
+
+    .footer-input{
+        margin-right: auto;
     }
 }
 
@@ -1036,7 +1055,7 @@ input::placeholder{
 }
 
 .modal-span{
-    width: 20px; 
+    width: 16px; 
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4); 
     border-radius: 2px;
@@ -1084,9 +1103,6 @@ input:checked + label > span {
       width: 408px;
       min-height: 584px;
     }
-    .modal-span {
-      width: 16px;
-    }
   }
   @media screen and (min-width: 1158px) {
     .modal {
@@ -1099,8 +1115,8 @@ input:checked + label > span {
     position: fixed;
     top: 0;
     left: 0;
-    width: 320px;
-    height: 640px;
+    width: 100%;
+    height: 100%;
     background-color: #ffffff;
     opacity: 0;
     visibility: hidden;
@@ -1119,7 +1135,7 @@ input:checked + label > span {
     padding-bottom: 40px;
     display: flex;
     flex-direction: column;
-    height: 640px;
+    height: 100%;
   }
   .mobile-menu-nav {
     margin-bottom: auto;
